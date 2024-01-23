@@ -1,0 +1,4 @@
+node_modules/
+olders/
+package-lock.json
+copy.txt

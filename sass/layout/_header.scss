@@ -1,0 +1,16 @@
+.header{
+    height: 90vh;
+    background-image: linear-gradient(to right bottom, 
+    rgba($color-primary-light, 0.8) , 
+    rgba($color-primary-dark, 0.8)),
+    url(../img/head-img.jpg);
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+
+    @include respond(phone){
+    	clip-path: polygon(0 0, 100% 0, 100% 75%, 0 83%);
+    }
+    
+}
